@@ -1,0 +1,232 @@
+body
+{
+  background-color:#ffffcc;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+span#nagar
+{
+  font-family: 'Comfortaa', cursive;
+  background-color: #ffcc00;
+  font-size: 2em;
+  color: black;
+}
+#jumbotron-content p.saying
+{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 500;
+}
+
+/*Jumnotron css*/
+.jumbotron {
+  position:relative;
+  height: 100vh;
+  width: 100%;
+  overflow:hidden;
+}
+
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+  
+  margin-top: 45px;
+  background:rgba(0,0,0,0.2);
+  padding:2rem;
+  border:1px solid rgba(0,0,0,0.1);
+  border-radius:3px;
+}
+.text-white .display-4
+{
+  font-family: 'Comfortaa', cursive;
+  color: white;
+  font-size: 1.5em;
+}
+
+.sub-text
+{
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.5em;
+  
+}
+ul#nav-elements li a
+{
+  color: black;
+  font-weight: 500;
+  
+}
+.jumbotron-background {
+  object-fit:cover;
+  font-family: 'object-fit: cover;';
+  position: absolute;
+  top:0px;
+  z-index:1;
+  width:100%;
+  height:100%;
+  opacity:0.5;
+}
+
+img.j-image
+{
+  width: 100%;
+  height: auto;
+}
+/*jumbotron css ends here*/
+  
+div#info-left
+{
+  padding: 5rem 3rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+div#info
+{
+  margin-bottom: 2rem;
+}
+#info-right
+{
+  background-color: #ffcc00;
+  
+}
+#info-list li
+{
+  list-style-type:circle;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+  padding: 5px;
+  margin-left: 30px;
+  
+}
+#info-right ul
+{
+  padding: 2.5rem;
+  line-height: 20px;
+}
+h2#question
+{
+  font-size: 5em;
+  
+}
+
+
+#some-more
+{
+  background-color: rgb(206, 197, 197);
+}
+#some-more h1
+{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 4em;
+  text-align: center;
+  padding:7rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+/*  for full page carousel*/
+html,
+body,
+.full-page
+{
+  height: 100%;
+}
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active 
+{
+  height: 100%;
+}
+.carousel-inner 
+{
+  height: 100%;
+}
+.carousel-item:nth-child(1) 
+{
+  background-image: url("https://images.pexels.com/photos/1162968/pexels-photo-1162968.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+.carousel-item:nth-child(2) 
+{
+  background-image: url("https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  
+}
+.carousel-item:nth-child(3) 
+{
+  background-image: url("https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
+
+
+.foot-text
+{
+  font-family: 'Montserrat';
+}
+#make-bold
+{
+  font-weight: bold;
+}
+
+.map-container-5
+{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-5 iframe
+{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.social-list>li>a
+{
+  display: block;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  width: 30px;
+  padding: 5px;
+  
+  border-radius: 50%;
+}
+
+/*social links effects*/
+.social-list>li>a.btn-behance:hover
+{
+  color: white;
+  background-color:#053eff; 
+}
+.social-list>li>a.btn-insta:hover
+{
+  color:white;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.social-list>li>a.btn-fb:hover
+{
+  color: white;
+  background-color: #3B5998; 
+}
+.social-list>li>a.btn-git:hover
+{
+  color: white ;
+  background-color: #333333; 
+}
+.social-list>li>a.btn-li:hover
+{
+  color:white;
+  background-color: #007bb5; 
+}
