@@ -55,6 +55,11 @@ ul#nav-elements li a
   font-weight: 500;
   
 }
+#nav-elements li a:hover 
+{
+  background-color: #ff9900;
+}
+
 .jumbotron-background {
   object-fit:cover;
   font-family: 'object-fit: cover;';
@@ -171,7 +176,7 @@ body,
 {
   font-family: 'Montserrat';
 }
-#make-bold
+.make-bold
 {
   font-weight: bold;
 }
